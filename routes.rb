@@ -1,6 +1,6 @@
 Rails.application.routes.draw do
 
-  get  "/translator", to: "translator#get_handler"
-  post "/translator", to: "translator#post_handler"
+  post "/translator1", to: "translator#post_handler_simple"
+  post "/translator2", to: "translator#post_handler"
 
 end
