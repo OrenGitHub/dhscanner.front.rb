@@ -1,8 +1,7 @@
 ### dhscanner.front.rb
 
-Parse ruby files to abstract syntax trees ([AST][1]s),
-using the [syntax_tree][2] wrapper around the [Cruby][3]
-native parser.
+- Parse ruby files to abstract syntax trees ([AST][1]s)
+- Use the [syntax_tree][2] wrapper around the [Cruby][3] native parser.
 
 ### Installation
 
