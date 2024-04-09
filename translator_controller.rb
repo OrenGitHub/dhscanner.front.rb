@@ -2,6 +2,12 @@ require "json"
 
 class TranslatorController < ApplicationController
 
+  def healthcheck
+
+    render plain: JSON.dump({ "healthy": true })
+
+  end
+
   def post_handler
 
     # get the sent file entity
